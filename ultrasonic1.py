@@ -47,7 +47,7 @@ distance = elapsed * 34300
 # That was the distance there and back so halve the value
 distance = distance / 2
 
-print "Distance : %.1f" % distance
+print "The Distance measured was: %.1f" % distance
 
 # Reset GPIO settings
 GPIO.cleanup()
